@@ -1,23 +1,22 @@
 # 0x06. C - More pointers, arrays and strings Project
+The file 0-strcat.c is a function that concatenates two strings.
 
-File 0-strcat.c is a function that concatenates two strings.
+File 1-strncat.c is a function that concatenates two strings using up to n bytes of src.
 
-File 1-strncat.c is a function that concatenates two strings that will use at most n bytes from src.
-
-File 2-strncpy.c is a function that copies a string.
+File 2-strncpy.c is a function for copying strings.
 
 File 3-strcmp.c is a function that compares two strings.
 
-File 4-rev_array.c a function that reverses the content of an array of integers.
+File 4-rev_array.ca Function to reverse the contents of an integer array.
 
-File 5-string_toupper.c is a function that changes all lowercase letters of a string to uppercase.
+File 5-string_toupper.c is a function that converts all lowercase letters in a string to uppercase letters.
 
-File 6-cap_string.c is a function that capitalizes all words of a string.
+File 6-cap_string.c is a function that capitalizes all words in a string.
 
-File 7-leet.c is a function that encodes a string into 1337.
+The file 7-leet.c is a function to encode a string to 1337.
 
-File 100-rot13.c is a function that encodes a string using rot13.
+The file 100-rot13.c is a function to encode a string with rot13.
 
-File _putchar.c is a function that replaces the standard library function putchar().
+The _putchar.c file is a function that replaces the standard library function putchar().
 
-File main.h is the header file containing all the function prototypes.
+The main.h file is the header file that contains prototypes for all functions.
