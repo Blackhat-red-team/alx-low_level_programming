@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *print_sign - checks the number value
+ *print_sign - checkss the number valuee
  *
- *@n: contains the number
+ *@n: contains the numberr
  *
- *Return: 0 if zero, 1 if positive, -1 if negative
+ *Return: 0 if zero, 1 if positivee, -1 if negativee
  */
 int print_sign(int n)
 	{
