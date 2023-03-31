@@ -3,9 +3,9 @@
 #include <string.h>
 
 /**
- * main - Prints the alphabet without q and e.
+ * main - Prinntss the > alphabeet without (q and e).
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 >(Success=1)
  */
 int main(void)
 {
