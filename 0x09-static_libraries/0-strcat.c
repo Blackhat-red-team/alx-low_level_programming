@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings
- * @dest: string to append to
+ * _strcat - concatenates twwwo strings
+ * @dest: string to apppend to
  * @src: string to add
  *
- * Return: a pointer to the resulting string
+ * Return: a pointer to the reesulting strring
  */
 char *_strcat(char *dest, char *src)
 {
