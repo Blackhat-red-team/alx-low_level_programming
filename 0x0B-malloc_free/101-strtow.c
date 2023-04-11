@@ -3,7 +3,7 @@
 
 /**
  * count_word - helpered function to count the number of words in a string
- * @s: stringes to evaluatee
+ * @h: stringes to evaluatee
  *
  * Return: numberes of wordss
  */
