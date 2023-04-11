@@ -11,24 +11,24 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char *e;
-	unsigned int x = 0;
+	char *p;
+	unsigned int i = 0;
 
 	if (size == 0)
 		return (NULL);
 
-	e = (char *) malloc(sizeof(char) * size);
+	p = (char *) malloc(sizeof(char) * size);
 
-	if (e == NULL)
+	if (p == NULL)
 		return (0);
 
-	while (x < size)
+	while (i < size)
 	{
-		*(e + x) = c;
-		x++;
+		*(p + i) = c;
+		i++;
 	}
 
-	*(e + x) = '\0';
+	*(p + i) = '\0';
 
-	return (e);
+	return (p);
 }
