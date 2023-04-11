@@ -5,11 +5,11 @@
  * *_strdup - replicates the parameterized string
  * @str: duplicate string
  *
- * Return: (Success) pointer to the copied string, NULL (Error)
+ * Return:(Success) pointer to the copied string, NULL (Error)
  */
 char *_strdup(char *str)
 {
-	char *duup;
+	char *dup;
 	unsigned int x, len;
 
 	x = 0;
@@ -21,13 +21,13 @@ char *_strdup(char *str)
 	while (str[len])
 		len++;
 
-	duup = malloc(sizeof(char) * (len + 1));
+	dup = malloc(sizeof(char) * (len + 1));
 
-	if (duup == NULL)
+	if (dup == NULL)
 		return (NULL);
 
-	while ((duup[x] = str[x]) != '\0')
+	while ((dup[x] = str[x]) != '\0')
 		x++;
 
-	return (duup);
+	return (dup);
 }
