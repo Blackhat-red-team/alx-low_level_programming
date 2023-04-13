@@ -39,9 +39,9 @@ int _strl(char *a)
 }
 
 /**
- * erro - handles erro for main
+ * error - handles erro for main
  */
-void erro(void)
+void error(void)
 {
 	printf("Error\n");
 	exit(98);
