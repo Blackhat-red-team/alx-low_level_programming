@@ -2,8 +2,8 @@
 
 /**
  * main - program that perfroms simple operations
- * @argc: number of the arguments
- * @argv: array of the arguments
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
  * Return: Always 0 (Success)
  */
