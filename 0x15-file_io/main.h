@@ -3,9 +3,9 @@
 
 /*
  * File: holberton.h
- * Auth: Ibrahim Said
- * Desc: header file containing all function prototypes
- *       written in the directory 0x14-file_io.
+ * Auth: Ibrahim said
+ * Desc: Header file containing prototypes for all functions
+ *       written in the 0x14-file_io directory.
  */
 
 #include <sys/types.h>
@@ -18,4 +18,3 @@ int create_file(const char *filename, char *text_content);
 int append_text_to_file(const char *filename, char *text_content);
 
 #endif /* MAIN_H */
-
